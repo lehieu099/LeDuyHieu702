@@ -14,6 +14,7 @@ namespace MvcMovie.Data
         {
         }
         public DbSet<LeDuyHieu702.Models.UniversityLDH702> UniversityLDH702 { get; set; }
+        public DbSet<LeDuyHieu702.Models.LDH0702> LDH0702 { get; set; }
 
         // public DbSet<LeDuyHieu702Context.Models.University> University { get; set; }
        }
